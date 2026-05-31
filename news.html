@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24H AI Briefing | MaesterBench</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body class="news-page">
+
+    <div class="hero-glow"></div>
+
+    <nav>
+        <div class="logo">MaesterBench</div>
+        <div class="nav-links">
+            <a href="homepage.html">Home</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="news.html" style="color: #fff; font-weight: bold;">News Feed</a>
+            <button class="btn-primary">Connect API</button>
+        </div>
+    </nav>
+
+    <header>
+        <span class="rank-tag" style="font-size: 0.9rem; color: #10b981;">● Live Updates</span>
+        <h1>The 24-Hour AI Briefing.</h1>
+        <p>Signal through the noise. Hard facts, model releases, and benchmark shifts from the last 24 hours.</p>
+    </header>
+
+    <main class="news-container">
+        <div class="news-grid">
+            
+            <!-- FEATURED STORY (Takes up 2 columns) -->
+            <article class="news-card featured">
+                <div>
+                    <span class="news-tag tag-release">Model Release</span>
+                    <h3>Anthropic Unexpectedly Drops Claude 3.5 Opus with Vision Upgrades</h3>
+                    <p>In a surprise midnight release, Anthropic has unveiled the highly anticipated Opus tier of their 3.5 model family. Early internal benchmarks show a 14% improvement in complex reasoning tasks over Sonnet, with massive leaps in multi-modal vision processing capabilities. API access is rolling out incrementally over the next 48 hours.</p>
+                </div>
+                <div class="news-meta">
+                    <span>Source: Anthropic Developer Blog</span>
+                    <span>2 hours ago</span>
+                </div>
+            </article>
+
+            <!-- STANDARD STORY 1 -->
+            <article class="news-card">
+                <div>
+                    <span class="news-tag tag-update">API Update</span>
+                    <h3>OpenAI Slashes GPT-4o API Costs by 50%</h3>
+                    <p>Following increased market competition, OpenAI has officially reduced the input and output token costs for their flagship GPT-4o model, making it highly competitive for bulk data processing tasks.</p>
+                </div>
+                <div class="news-meta">
+                    <span>Source: OpenAI Changelog</span>
+                    <span>5 hours ago</span>
+                </div>
+            </article>
+
+            <!-- STANDARD STORY 2 -->
+            <article class="news-card">
+                <div>
+                    <span class="news-tag tag-industry">Industry Data</span>
+                    <h3>HuggingFace Proposes New Anti-Contamination Benchmark</h3>
+                    <p>Researchers at HuggingFace have published a paper outlining a dynamic benchmarking suite designed to prevent LLMs from memorizing test data during their training runs.</p>
+                </div>
+                <div class="news-meta">
+                    <span>Source: arXiv / HuggingFace</span>
+                    <span>11 hours ago</span>
+                </div>
+            </article>
+
+            <!-- STANDARD STORY 3 -->
+            <article class="news-card">
+                <div>
+                    <span class="news-tag tag-release">Open Source</span>
+                    <h3>Meta Prepares Llama 3 400B for Imminent Release</h3>
+                    <p>Leaked GitHub commits suggest Meta is finalizing the weights for their massive 400 Billion parameter version of Llama 3, potentially threatening closed-source supremacy.</p>
+                </div>
+                <div class="news-meta">
+                    <span>Source: TechCrunch</span>
+                    <span>18 hours ago</span>
+                </div>
+            </article>
+
+            <!-- STANDARD STORY 4 -->
+            <article class="news-card">
+                <div>
+                    <span class="news-tag tag-update">Platform News</span>
+                    <h3>MaesterBench Integrates Real-Time Speed Tracking</h3>
+                    <p>We've officially added Time-To-First-Token (TTFT) metrics across our top 10 leaderboard models, giving developers a clearer picture of production-ready latency.</p>
+                </div>
+                <div class="news-meta">
+                    <span>Source: MaesterBench Internal</span>
+                    <span>22 hours ago</span>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- Chatbot Injection -->
+    <script src="chatbot.js"></script>
+</body>
+</html>

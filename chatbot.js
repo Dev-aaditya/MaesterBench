@@ -49,7 +49,7 @@ const chatbotHTML = `
             <div class="chat-action-row">
                 <button class="action-icon-btn">⚙️</button>
                 <button class="action-icon-btn">🔃</button>
-                <input type="text" class="chat-input-pill" placeholder="Receive ↓" disabled>
+                <input type="text" class="chat-input-pill" placeholder="Type Here" >
                 <button class="send-action-btn">Ask ↑</button>
             </div>
 

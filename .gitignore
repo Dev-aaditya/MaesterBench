@@ -1,0 +1,44 @@
+# ---------------------------------------------------
+# MaesterBench .gitignore
+# ---------------------------------------------------
+
+# 1. Environment Variables (CRITICAL FOR SECURITY)
+
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 2. Operating System Files
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 3. Editor Directories
+
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 4. Node Modules (Future-proofing)
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 5. Local config files
+
+config.js
